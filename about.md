@@ -1,2 +1,8 @@
+---
+layout: default
+title: About Me
+nav_order: 2
+---
+
 # About Me
-*(Write a brief introduction about your background here.)*
+(Your bio goes here.)
