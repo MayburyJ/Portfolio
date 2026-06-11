@@ -2,3 +2,7 @@ title: DS Portfolio
 logo: /images/histogram-example-2+(3).png
 show_downloads: true
 remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+url: "https://bppportfolio.github.io"
+baseurl: "/Portfolio"
