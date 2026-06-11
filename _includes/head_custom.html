@@ -1,5 +1,5 @@
 <style>
-  /* 1. Force the main header container to expand to fit the portrait */
+  /* 1. Expand the main header container to fit the portrait */
   .site-header {
     height: auto !important;
     min-height: 160px !important; 
@@ -7,16 +7,13 @@
     padding-bottom: 20px;
   }
 
-  /* 2. Remove the 24px restriction on the logo link wrapper */
+  /* 2. Explicitly size the empty logo container so the background image shows */
   .site-logo {
-    height: auto !important;
     display: block !important;
-  }
-
-  /* 3. Explicitly force the image itself to scale up to 120px */
-  .site-logo img {
-    height: 120px !important; 
-    max-height: 120px !important;
-    width: auto !important;
+    height: 120px !important; /* Explicit height is required because the container is empty! */
+    width: 100% !important;
+    background-size: contain !important;
+    background-position: left center !important;
+    background-repeat: no-repeat !important;
   }
 </style>
