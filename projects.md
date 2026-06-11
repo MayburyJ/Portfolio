@@ -2,7 +2,8 @@
 layout: default
 title: Projects
 nav_order: 3
-has_children: false
+has_children: true
+toc: false
 ---
 
 # Projects
