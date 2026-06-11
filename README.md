@@ -1,6 +1,6 @@
-# Portfolio
+# DS Portfolio
 
-## Random Image Exmplae
-![Histogram](/images/histogram-example-2+(3).png)
-
-## Global Tourism Growth using Supply End Spaital Proxy Measure 
+## Navigation
+- [About Me](about.md)
+- [Projects](projects.md)
+  - [Global Tourism Growth using Supply End Spatial Proxy Measure](tourism-growth-project.md)
