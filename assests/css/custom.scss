@@ -1,0 +1,12 @@
+---
+---
+
+/* Override the default logo size restrictions */
+.site-header .site-logo {
+  height: auto !important;
+}
+
+.site-logo img {
+  max-height: 120px !important; 
+  width: auto !important;
+}
